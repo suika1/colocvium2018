@@ -5,6 +5,8 @@
 #include "DIV_NN_N.h"
 #include "LCM_NN_N.h"
 
+using namespace std;
+
 NUMBN nokNumbN(NUMBN fNumb, NUMBN sNumb)
 {
     NUMBN ans;
