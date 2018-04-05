@@ -1,5 +1,5 @@
-#ifndef _NUMBN_H_
-#define _NUMBN_H_
+#ifndef LNGNT_H
+#define LNGNT_H
 
 // Cтруктура больших чисел
 struct LNGNT
