@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include <iostream>
 #include "longNat.h"
 #include "GCF_NN_N.h"
 #include "MUL_NN_N.h"
 #include "DIV_NN_N.h"
 #include "LCM_NN_N.h"
+
+using namespace std;
 
 NUMBN nokNumbN(NUMBN fNumb, NUMBN sNumb)
 {
@@ -17,7 +19,7 @@ NUMBN nokNumbN(NUMBN fNumb, NUMBN sNumb)
             ans = multiplicationTwoNumb(fNumb, DivNumbN(sNumb, nod));
     }
     else
-        printf("\nОшибка, числа не существует!\n");
+        cout << endl <<"Ошибка, числа не существует!" << endl;
 
     return ans;
 }
